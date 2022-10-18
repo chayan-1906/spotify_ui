@@ -3,14 +3,23 @@ import 'dart:io';
 import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:spotify_ui/models/current_track_model.dart';
 import 'package:spotify_ui/screens/main_screen.dart';
+
+/* https://github.com/MarcusNg/flutter_spotify_ui/tree/starter_project */
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (!kIsWeb && (Platform.isMacOS || Platform.isLinux || Platform.isWindows)) {
-    await DesktopWindow.setMinWindowSize(const Size(600, 800));
+    await DesktopWindow.setMinWindowSize(const Size(800, 600));
   }
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (BuildContext context) => CurrentTrackModel(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
