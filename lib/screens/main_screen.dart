@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_ui/data/data.dart';
 
+import '../widgets/current_track.dart';
 import '../widgets/side_menu.dart';
 import 'playlist_screen.dart';
 
@@ -14,17 +15,15 @@ class MainScreen extends StatelessWidget {
         children: [
           Expanded(
             child: Row(
-              children: const [
-                SideMenu(),
-                Expanded(child: PlaylistScreen(playlist: lofihiphopPlaylist)),
+              children: [
+                if (MediaQuery.of(context).size.width > 800) const SideMenu(),
+                const Expanded(
+                  child: PlaylistScreen(playlist: lofihiphopPlaylist),
+                ),
               ],
             ),
           ),
-          Container(
-            height: 84.0,
-            width: double.infinity,
-            color: Colors.blueAccent,
-          ),
+          const CurrentTrack(),
         ],
       ),
     );
