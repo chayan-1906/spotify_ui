@@ -36,6 +36,7 @@
 </table>
 
 <table>
+   <tr>
     <td>
       <img width="1550" alt="Web Medium width" src="https://user-images.githubusercontent.com/82430454/196757247-97c55d69-7724-44c6-8bab-fb568a6a767e.png">
     </td>
