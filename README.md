@@ -30,7 +30,7 @@
 <table>
   <tr>
     <td>
-      <img width="1470" alt="Screenshot 2022-10-19 at 10 33 03 PM" src="https://user-images.githubusercontent.com/82430454/196758213-8dd8e8d5-7e02-4f3b-8609-c9d0cad78823.png">
+      <img width="1470" alt="Web Maximize" src="https://user-images.githubusercontent.com/82430454/196758213-8dd8e8d5-7e02-4f3b-8609-c9d0cad78823.png">
     </td>
   </tr>
 </table>
@@ -45,4 +45,8 @@
     </td>
   </tr>
 </table>
+
+
+
+https://user-images.githubusercontent.com/82430454/196764553-0bf7d956-3d34-4b52-9b3c-daf28db798d1.mp4
 
