@@ -8,7 +8,7 @@
 <table>
   <tr>
     <td>
-      <img width="1470" alt="MacOS Maximize" src="https://user-images.githubusercontent.com/82430454/196754323-55f0e004-f950-4063-8921-838b1313f764.png">
+      <img width="1470" alt="MacOS Maximize" src="https://user-images.githubusercontent.com/82430454/196937203-ddd05fd5-5da3-4108-b8d6-8676672fb337.png">
     </td>
   </tr>
 </table>
