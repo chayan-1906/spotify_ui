@@ -1,6 +1,6 @@
 # Spotify UI
 
-### A Responsive Facebook UI for Mobile and Web
+### A Responsive Spotify UI for Mobile and Web
 
 
 #### MacOS
